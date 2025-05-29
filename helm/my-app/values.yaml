@@ -1,0 +1,15 @@
+replicaCount: 2
+
+image:
+  repository: 879439695664.dkr.ecr.us-east-1.amazonaws.com/my-app-repo
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 5000
+
+ingress:
+  enabled: false
+
+resources: {}
