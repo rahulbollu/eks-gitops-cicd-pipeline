@@ -1,4 +1,4 @@
-replicaCount: 1
+replicaCount: 3
 
 image:
   repository: 879439695664.dkr.ecr.us-east-1.amazonaws.com/my-app-repo
